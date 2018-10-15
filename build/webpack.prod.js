@@ -23,7 +23,12 @@ module.exports = merge(common, {
             }
           }
         ]
-      }
+      },
+      {
+        test: /\.css$/,
+        exclude: [/src/],
+        use: [MiniCssExtractPlugin.loader, 'css-loader'],
+      },
     ]
   },
   plugins: [

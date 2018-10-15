@@ -25,7 +25,12 @@ module.exports = merge(common, {
             }
           }
         ]
-      }
+      },
+      {
+        test: /\.css$/,
+        exclude: [/src/],
+        use: ['style-loader', 'css-loader'],
+      },
     ]
   },
   devtool: 'inline-source-map',

@@ -16,6 +16,7 @@ class App extends Component {
       <div>
         <header styleName="headers">
           { message }
+          <br />
           <a
             href="https://reactjs.org"
             target="_blank"
