@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import CSSModules from 'react-css-modules'
-import styles from './app.css'
+import styles from './App.css'
 
 class App extends Component {
   constructor(props) {
@@ -16,11 +16,6 @@ class App extends Component {
       <div>
         <header styleName="headers">
           { message }
-          <p>
-            Edit
-            <code>src/App.js</code>
-            and save to reload.
-          </p>
           <a
             href="https://reactjs.org"
             target="_blank"
