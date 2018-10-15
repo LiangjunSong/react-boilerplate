@@ -1,6 +1,5 @@
-import App from "./app";
-import ReactDOM from "react-dom";
-import React from "react";
+import ReactDOM from 'react-dom'
+import React from 'react'
+import App from './app'
 
-const wrapper = document.getElementById("root");
-wrapper ? ReactDOM.render(<App />, wrapper) : false;
+ReactDOM.render(<App />, document.getElementById('root'))
